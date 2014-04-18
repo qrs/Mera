@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E94B80601901B8FE00DE372B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94B805F1901B8FE00DE372B /* Foundation.framework */; };
+		E94B80621901B8FE00DE372B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94B80611901B8FE00DE372B /* CoreGraphics.framework */; };
+		E94B80641901B8FE00DE372B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94B80631901B8FE00DE372B /* UIKit.framework */; };
+		E94B806A1901B8FE00DE372B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E94B80681901B8FE00DE372B /* InfoPlist.strings */; };
+		E94B806C1901B8FE00DE372B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E94B806B1901B8FE00DE372B /* main.m */; };
+		E94B80701901B8FE00DE372B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E94B806F1901B8FE00DE372B /* AppDelegate.m */; };
+		E94B80731901B8FE00DE372B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E94B80711901B8FE00DE372B /* Main.storyboard */; };
+		E94B80761901B8FE00DE372B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E94B80751901B8FE00DE372B /* ViewController.m */; };
+		E94B80781901B8FE00DE372B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E94B80771901B8FE00DE372B /* Images.xcassets */; };
+		E94B807F1901B8FF00DE372B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94B807E1901B8FF00DE372B /* XCTest.framework */; };
+		E94B80801901B8FF00DE372B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94B805F1901B8FE00DE372B /* Foundation.framework */; };
+		E94B80811901B8FF00DE372B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94B80631901B8FE00DE372B /* UIKit.framework */; };
+		E94B80891901B8FF00DE372B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E94B80871901B8FF00DE372B /* InfoPlist.strings */; };
+		E94B808B1901B8FF00DE372B /* MeraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E94B808A1901B8FF00DE372B /* MeraTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E94B80821901B8FF00DE372B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E94B80541901B8FE00DE372B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E94B805B1901B8FE00DE372B;
+			remoteInfo = Mera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E94B805C1901B8FE00DE372B /* Mera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E94B805F1901B8FE00DE372B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E94B80611901B8FE00DE372B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E94B80631901B8FE00DE372B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E94B80671901B8FE00DE372B /* Mera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mera-Info.plist"; sourceTree = "<group>"; };
+		E94B80691901B8FE00DE372B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E94B806B1901B8FE00DE372B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E94B806D1901B8FE00DE372B /* Mera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mera-Prefix.pch"; sourceTree = "<group>"; };
+		E94B806E1901B8FE00DE372B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E94B806F1901B8FE00DE372B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E94B80721901B8FE00DE372B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E94B80741901B8FE00DE372B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E94B80751901B8FE00DE372B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E94B80771901B8FE00DE372B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E94B807D1901B8FF00DE372B /* MeraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E94B807E1901B8FF00DE372B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E94B80861901B8FF00DE372B /* MeraTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MeraTests-Info.plist"; sourceTree = "<group>"; };
+		E94B80881901B8FF00DE372B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E94B808A1901B8FF00DE372B /* MeraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeraTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E94B80591901B8FE00DE372B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94B80621901B8FE00DE372B /* CoreGraphics.framework in Frameworks */,
+				E94B80641901B8FE00DE372B /* UIKit.framework in Frameworks */,
+				E94B80601901B8FE00DE372B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E94B807A1901B8FF00DE372B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94B807F1901B8FF00DE372B /* XCTest.framework in Frameworks */,
+				E94B80811901B8FF00DE372B /* UIKit.framework in Frameworks */,
+				E94B80801901B8FF00DE372B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E94B80531901B8FE00DE372B = {
+			isa = PBXGroup;
+			children = (
+				E94B80651901B8FE00DE372B /* Mera */,
+				E94B80841901B8FF00DE372B /* MeraTests */,
+				E94B805E1901B8FE00DE372B /* Frameworks */,
+				E94B805D1901B8FE00DE372B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E94B805D1901B8FE00DE372B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E94B805C1901B8FE00DE372B /* Mera.app */,
+				E94B807D1901B8FF00DE372B /* MeraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E94B805E1901B8FE00DE372B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E94B805F1901B8FE00DE372B /* Foundation.framework */,
+				E94B80611901B8FE00DE372B /* CoreGraphics.framework */,
+				E94B80631901B8FE00DE372B /* UIKit.framework */,
+				E94B807E1901B8FF00DE372B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E94B80651901B8FE00DE372B /* Mera */ = {
+			isa = PBXGroup;
+			children = (
+				E94B806E1901B8FE00DE372B /* AppDelegate.h */,
+				E94B806F1901B8FE00DE372B /* AppDelegate.m */,
+				E94B80711901B8FE00DE372B /* Main.storyboard */,
+				E94B80741901B8FE00DE372B /* ViewController.h */,
+				E94B80751901B8FE00DE372B /* ViewController.m */,
+				E94B80771901B8FE00DE372B /* Images.xcassets */,
+				E94B80661901B8FE00DE372B /* Supporting Files */,
+			);
+			path = Mera;
+			sourceTree = "<group>";
+		};
+		E94B80661901B8FE00DE372B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E94B80671901B8FE00DE372B /* Mera-Info.plist */,
+				E94B80681901B8FE00DE372B /* InfoPlist.strings */,
+				E94B806B1901B8FE00DE372B /* main.m */,
+				E94B806D1901B8FE00DE372B /* Mera-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E94B80841901B8FF00DE372B /* MeraTests */ = {
+			isa = PBXGroup;
+			children = (
+				E94B808A1901B8FF00DE372B /* MeraTests.m */,
+				E94B80851901B8FF00DE372B /* Supporting Files */,
+			);
+			path = MeraTests;
+			sourceTree = "<group>";
+		};
+		E94B80851901B8FF00DE372B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E94B80861901B8FF00DE372B /* MeraTests-Info.plist */,
+				E94B80871901B8FF00DE372B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E94B805B1901B8FE00DE372B /* Mera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E94B808E1901B8FF00DE372B /* Build configuration list for PBXNativeTarget "Mera" */;
+			buildPhases = (
+				E94B80581901B8FE00DE372B /* Sources */,
+				E94B80591901B8FE00DE372B /* Frameworks */,
+				E94B805A1901B8FE00DE372B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mera;
+			productName = Mera;
+			productReference = E94B805C1901B8FE00DE372B /* Mera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E94B807C1901B8FF00DE372B /* MeraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E94B80911901B8FF00DE372B /* Build configuration list for PBXNativeTarget "MeraTests" */;
+			buildPhases = (
+				E94B80791901B8FF00DE372B /* Sources */,
+				E94B807A1901B8FF00DE372B /* Frameworks */,
+				E94B807B1901B8FF00DE372B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E94B80831901B8FF00DE372B /* PBXTargetDependency */,
+			);
+			name = MeraTests;
+			productName = MeraTests;
+			productReference = E94B807D1901B8FF00DE372B /* MeraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E94B80541901B8FE00DE372B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					E94B807C1901B8FF00DE372B = {
+						TestTargetID = E94B805B1901B8FE00DE372B;
+					};
+				};
+			};
+			buildConfigurationList = E94B80571901B8FE00DE372B /* Build configuration list for PBXProject "Mera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E94B80531901B8FE00DE372B;
+			productRefGroup = E94B805D1901B8FE00DE372B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E94B805B1901B8FE00DE372B /* Mera */,
+				E94B807C1901B8FF00DE372B /* MeraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E94B805A1901B8FE00DE372B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94B80781901B8FE00DE372B /* Images.xcassets in Resources */,
+				E94B806A1901B8FE00DE372B /* InfoPlist.strings in Resources */,
+				E94B80731901B8FE00DE372B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E94B807B1901B8FF00DE372B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94B80891901B8FF00DE372B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E94B80581901B8FE00DE372B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94B80761901B8FE00DE372B /* ViewController.m in Sources */,
+				E94B80701901B8FE00DE372B /* AppDelegate.m in Sources */,
+				E94B806C1901B8FE00DE372B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E94B80791901B8FF00DE372B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94B808B1901B8FF00DE372B /* MeraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E94B80831901B8FF00DE372B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E94B805B1901B8FE00DE372B /* Mera */;
+			targetProxy = E94B80821901B8FF00DE372B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E94B80681901B8FE00DE372B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E94B80691901B8FE00DE372B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E94B80711901B8FE00DE372B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E94B80721901B8FE00DE372B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E94B80871901B8FF00DE372B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E94B80881901B8FF00DE372B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E94B808C1901B8FF00DE372B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E94B808D1901B8FF00DE372B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E94B808F1901B8FF00DE372B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mera/Mera-Prefix.pch";
+				INFOPLIST_FILE = "Mera/Mera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E94B80901901B8FF00DE372B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mera/Mera-Prefix.pch";
+				INFOPLIST_FILE = "Mera/Mera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E94B80921901B8FF00DE372B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mera.app/Mera";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mera/Mera-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MeraTests/MeraTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E94B80931901B8FF00DE372B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mera.app/Mera";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mera/Mera-Prefix.pch";
+				INFOPLIST_FILE = "MeraTests/MeraTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E94B80571901B8FE00DE372B /* Build configuration list for PBXProject "Mera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E94B808C1901B8FF00DE372B /* Debug */,
+				E94B808D1901B8FF00DE372B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E94B808E1901B8FF00DE372B /* Build configuration list for PBXNativeTarget "Mera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E94B808F1901B8FF00DE372B /* Debug */,
+				E94B80901901B8FF00DE372B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E94B80911901B8FF00DE372B /* Build configuration list for PBXNativeTarget "MeraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E94B80921901B8FF00DE372B /* Debug */,
+				E94B80931901B8FF00DE372B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E94B80541901B8FE00DE372B /* Project object */;
+}
