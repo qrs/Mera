@@ -8,11 +8,16 @@
 
 #import "ViewController.h"
 
+@end
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
+
+- (BOOL)prefersStatusBarHidden {
+    return YES;
+}
 
 - (void)viewDidLoad
 {
@@ -26,4 +31,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)takePhoto:(UIButton *)sender {
+}
+
+- (IBAction)selectPhoto:(UIButton *)sender {
+}
 @end

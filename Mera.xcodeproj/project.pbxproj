@@ -21,6 +21,8 @@
 		E94B80811901B8FF00DE372B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94B80631901B8FE00DE372B /* UIKit.framework */; };
 		E94B80891901B8FF00DE372B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E94B80871901B8FF00DE372B /* InfoPlist.strings */; };
 		E94B808B1901B8FF00DE372B /* MeraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E94B808A1901B8FF00DE372B /* MeraTests.m */; };
+		E9C64CDC1901C571003F40FA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9C64CDA1901C571003F40FA /* Default-568h@2x.png */; };
+		E9C64CDD1901C571003F40FA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9C64CDB1901C571003F40FA /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		E94B80861901B8FF00DE372B /* MeraTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MeraTests-Info.plist"; sourceTree = "<group>"; };
 		E94B80881901B8FF00DE372B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E94B808A1901B8FF00DE372B /* MeraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeraTests.m; sourceTree = "<group>"; };
+		E9C64CDA1901C571003F40FA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Assets/Default-568h@2x.png"; sourceTree = "<group>"; };
+		E9C64CDB1901C571003F40FA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Assets/Default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,7 @@
 		E94B80651901B8FE00DE372B /* Mera */ = {
 			isa = PBXGroup;
 			children = (
+				E94B80941901BC2100DE372B /* Assets */,
 				E94B806E1901B8FE00DE372B /* AppDelegate.h */,
 				E94B806F1901B8FE00DE372B /* AppDelegate.m */,
 				E94B80711901B8FE00DE372B /* Main.storyboard */,
@@ -150,6 +155,15 @@
 				E94B80871901B8FF00DE372B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E94B80941901BC2100DE372B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E9C64CDA1901C571003F40FA /* Default-568h@2x.png */,
+				E9C64CDB1901C571003F40FA /* Default@2x.png */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +242,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E94B80781901B8FE00DE372B /* Images.xcassets in Resources */,
+				E9C64CDC1901C571003F40FA /* Default-568h@2x.png in Resources */,
+				E9C64CDD1901C571003F40FA /* Default@2x.png in Resources */,
 				E94B806A1901B8FE00DE372B /* InfoPlist.strings in Resources */,
 				E94B80731901B8FE00DE372B /* Main.storyboard in Resources */,
 			);
@@ -455,6 +471,7 @@
 				E94B80901901B8FF00DE372B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E94B80911901B8FF00DE372B /* Build configuration list for PBXNativeTarget "MeraTests" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +480,7 @@
 				E94B80931901B8FF00DE372B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
